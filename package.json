@@ -1,16 +1,14 @@
 {
   "name": "time",
   "version": "1.0.0",
-  "description": "",
+  "description": "KST 새벽 2시 자동 메시지 전송 봇",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "discord.js": "^14.25.1"
+    "discord.js": "^14.25.1",
+    "node-cron": "^4.2.1"
   }
 }
